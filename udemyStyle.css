@@ -108,4 +108,11 @@ main div#banners div#banners-settings {
 main div#banners div#banners-settings h2 {
     font: var(--font-h1);
     font-size: 20px;
+    padding-bottom: 8px;
+}
+
+main div#banners div#banners-settings p {
+    font: var();
+
+
 }
