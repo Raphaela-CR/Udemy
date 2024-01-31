@@ -6,70 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="udemystyle.css">
+    <link rel="stylesheet" href="Styles/udemyStyle.css">
     <title>My Learning | Udemy</title>
 </head>
 
 <body>
     <header>
-        <div id="first" class="nav">
-            <a href="dashboard.html"><img id="logo-Udemy" src="Sources/logo-udemy.png" alt="Udemy"></a>
-            <a href="#">Categories</a>
-            <div id="search-bar">
-                <input type="text" class="search-input" placeholder="Search for anything"> </input>
+        <nav class="nav-bar">
+
+            <div class="logo">
+                <a href="dashboard.html"><img src="Sources/logo-udemy.png" alt="Udemy"></a>
             </div>
-            <a href="#">Udemy Business</a>
-            <a href="#">Teach on Udemy</a>
-            <a href="#">My Learning</a>
-            <a href="#"><span class="material-symbols-outlined">favorite</span></a>
-            <a href="#"><span class="material-symbols-outlined">shopping_cart</span></a>
-            <a href="#"><span class="material-symbols-outlined">notifications</span></a>
-            <div id="user-profile-icon"></div>
-        </div>
 
-        <div id="second" class="nav">
-            <a href="">Development</a>
-            <a href="">Business</a>
-            <a href="">Finance & Accounting</a>
-            <a href="">It&Software</a>
-            <a href="">Office Productivity</a>
-            <a href="">Personal Development</a>
-            <a href="">Design</a>
-            <a href="">Marketing</a>
-            <a href="">Music</a>
-        </div>
-    </header>
-
-    <main>
-        <div id="main-title">
-            <h1>Welcome back, Joanne</h1>
-            <nav id="third">
+            <div class="nav-list">
                 <ul>
-                    <li><a href="#" aria-label="Go to My Courses">My Courses</a></li>
-                    <li><a href="#" aria-label="Go to my List">My List</a></li>
-                    <li><a href="#" aria-label="Go to My Wishlist">My Wishlist</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categories</a></li>
                 </ul>
-            </nav>
-        </div>
-        <div id="banners">
-            <div id="banners-settings" class="left-banner">
-                <div class="left-text">
-                    <h2>Schedule Learning Time</h2>
-                    <p>Our learning tools are ready to help you
-                        achieve your goals faster.</p>
-                    <button type="button"><a href="#">Set a timer</a></button>
-                </div>
-                <div>
-                    <img src="Sources/UDEMY-ILLUSTRATION-01.jpg" alt="Udemy Illustration">
-                </div>
             </div>
-            <div id="banners-settings" class="right-banner">
-                <h2>Push Notifications</h2>
-                <p>Set a learning reminder to get push notifications from the Udemy app</p>
-                <button type="button"><a href="#">Set a reminder</a></button>
+
+            <div class="nav-search">
+                <input type="text" class="search-input" placeholder="Search for anything">
             </div>
-        </div>
-    </main>
+
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a class="nav-link" href="#" class="nav-link">Udemy Business</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" class="nav-link">Teach on Udemy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" class="nav-link">My Learning</a></li>
+                    <li class="nav-item"><a href="#" class="material-symbols-outlined">favorite</span></a></li>
+                    <li class="nav-item"><a href="#" class="material-symbols-outlined">shopping_cart</span></a></li>
+                    <li class="nav-item"><a href="#" class="material-symbols-outlined">notifications</span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 </body>
 
 </html>
